@@ -86,7 +86,7 @@ require([
                     map: mapMain,
                     arrangement: Legend.ALIGN_RIGHT
                 }, "divLegend");
-               // dijitLegend.refresh([{layer:lyrUSA, title:'MAPA USA'},{layer:lyrQuakes,title:'MAPA TERREMOTOS'}]);
+                dijitLegend.refresh([{layer:lyrUSA, title:'MAPA USA'},{layer:lyrQuakes,title:'MAPA TERREMOTOS'}]);
                 dijitLegend.startup();
             });// stub
 
